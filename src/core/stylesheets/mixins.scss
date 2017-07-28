@@ -59,7 +59,7 @@
 }
 
 @mixin layout-small-and-up {
-  @media (min-width: #{$breakpoint-small - 300px}) {
+  @media (min-width: #{$breakpoint-small - 360px}) {
     @content;
   }
 }
